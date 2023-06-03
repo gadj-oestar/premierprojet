@@ -1,0 +1,681 @@
+
+@charset "UFT-8";
+
+*{ box-sizing: border-box; }
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin: 0;
+ padding: 0;  
+  }
+
+  img{
+    width: 100%;
+  }
+  html,body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+  background-color: white;
+  }
+
+  /*  le header*/
+  header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgb(9, 9, 90);
+    width: 20%;
+    height: 100vh;
+  margin: 0;
+  
+  }
+  ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  padding-right: 26%;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  justify-self: start;
+  font-family: 'Raleway', sans-serif;
+  
+  }
+  
+  li{
+    list-style-type: none;
+    align-self: end;
+    text-decoration: none;
+   
+  
+  }
+
+  a:hover{
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+   
+  }
+
+  figure.logo{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+  } 
+     #john{
+       width: 80%;
+       float: right;
+       padding: 0;
+       margin: 0;
+     } 
+  
+  section.un{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding:0px;
+    flex-wrap: wrap;
+  
+  }
+ 
+  .arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding:0px;
+    
+  }
+  .arrow h1{
+    font-size: 6rem;
+    width: 40%;
+    padding-left:40px;
+    color: rgba(230, 207, 136, 1);
+
+  }
+  .bat{
+    padding: 0;
+    margin: 0;
+  }
+  .bat img{
+    float: right;
+  }
+
+  .slade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+ 
+  .bro{
+    width: 50%;
+    padding-left: 30px;
+  }
+  .bro h1{
+   font-size:2rem;
+   width: 40%;
+  }
+  .flash{
+    padding:0 ;
+    margin:0 ;
+  }
+
+  button.read{
+    border: none;
+    background-color: rgba(230, 207, 136, 1) ;
+    height: 10vh;
+    padding-left: 30px;
+    padding-right: 30px;
+
+  }
+
+  .groupe{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .goku{
+    display:flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .itachi{
+    width: 50%;
+  }
+
+  .itachi h1{
+    padding-left: 40px;
+    font-size: 2rem;
+
+  }
+  .yama{
+    padding-left: 10px;
+  }
+  .vegeta{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .trunks{
+    display: flex;
+    
+  }
+
+  .goten{
+    width: 50%;
+  }
+  .goten p{
+    width: 70%;
+  }
+  .goten h1{
+    font-size: 2rem;
+    width: 60%;
+    line-height: 7vh;
+}
+  .chichi{
+    width: 50%;
+  }
+  .chichi h1{
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .uzumaki{
+    width: 60%;
+  }
+
+  .sect3{
+    display: flex;
+    flex-direction: row;
+  }
+  .sec3_art1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .sec3_art1 article {
+    background-color:rgba(245, 249, 255, 1);
+
+    width: 70%;
+    padding: 5%;
+    text-align: start;
+  }
+  .sec3_art1 article h2{
+    top: -35%;
+    font-size:3rem;
+    width: 30%;
+    font-weight: normal;
+    font-style: italic; 
+  }
+  .sec3_art2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .sec3d{
+    width: 50%;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+  }
+.sec3d span{
+    width: 35%;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 65%;
+    font-weight: normal;
+    font-style: italic;
+  
+  }
+.sec3d p{
+    font-size: 1rem;
+  }
+
+#section4{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.partie1{
+    width: 50%;
+}
+.kakuzu p{
+    width: 56%;
+    padding-left: 30Px;
+}
+.partie2 img{
+    padding-right: 60px;
+}
+
+.kakuzu h1{
+    font-size: 3rem;
+    padding-left:30px ;
+    padding-top: 40px;
+}
+
+
+.cell{
+    width: 50%;
+}
+
+.yamato img{
+    width: 70%;
+}
+.bloc2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bloc2 section{
+    width: 50%;
+}
+.tenten p{
+    padding-right: 50px;
+}
+.tenten h1{
+    width: 70%;
+}
+.rock{
+    width: 40%;
+    background-color: rgba(230, 207, 136, 1) ;
+    border: none;
+
+
+
+}
+
+.tommy{
+    background-color:rgba(245, 249, 255, 1);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20vh;
+
+}
+.tommy span{
+    font-size: 2rem;
+    text-align: center;
+    width:10%;
+    padding-top: 40px;
+}
+.gad{
+    float: center;
+}
+.jean{
+    float: right;
+    padding-right: 140px;
+    align-self: end;
+}
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+
+.danzo{
+    width: 45%;
+}
+.boruto{
+display: flex;
+flex-direction: row;
+}
+.mifune{
+    width: 50%;
+}
+.tomura{
+    display: flex;
+    flex-direction: row;
+}
+.bouteille{
+    width: 50%;
+    padding-top: 20px;
+}
+.raymond{
+    padding-left: 60px;
+}
+
+.raymond::before{
+    content: '"';
+    font-size: 3rem;
+ color: rgba(230, 207, 136, 1) ;
+
+    text-align: end;
+}
+
+.hokage{
+    padding-top: 20px;
+    
+}
+.patrick{
+    padding-top: 10px;
+}
+.patrick::before{
+    content: '"';
+    font-size: 3rem;
+ color: rgba(230, 207, 136, 1) ;
+
+}
+
+.sec6_1  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;*
+    margin: 0;
+    
+}
+
+.sec6_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.puce{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+.puce p{
+    width: 50%;
+}
+.puce button{
+       width: 10%;
+       border: none;
+    background-color: rgba(230, 207, 136, 1) ;
+}
+
+.sect6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    padding-right: 40px;
+}
+.groupe1{
+    width: 40%;
+}
+
+.text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+}
+
+.enfin{
+    background-color: aqua;
+}
+.ordinateur{
+    width: 45%;
+}
+i{
+    font-size: 3rem;
+}
+
+hr{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 40%;
+    left: -50%;
+    top: -3%;
+    background-color:rgba(230, 207, 136, 1);
+}
+.hr2{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 60%;
+    left: -30%;
+    top: -3%;
+    background-color:rgba(230, 207, 136, 1);
+}
+
+.hr3{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 60%;
+    left: -30%;
+    
+    background-color:rgba(230, 207, 136, 1);
+}
+.hr5{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 90%;
+    left: -15%;
+    top: -3%;
+    background-color:rgba(230, 207, 136, 1);
+
+}
+.hr6{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 90%;
+    left: -15%;
+    top: -3%;
+    background-color:rgba(230, 207, 136, 1);
+ 
+}
+.hr7{
+    border: 3px solid rgba(230, 207, 136, 1);
+    position: relative;
+    width: 15%;
+    left: -45%;
+    top: -3%;
+    background-color:rgba(230, 207, 136, 1);
+ 
+}
+p{
+  font-family: 'Roboto Slab', cursive ;
+
+}
+h1{
+    font-weight: normal;
+    font-style: italic;
+  
+}
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url(../font/bebasneue-regular-webfont.woff2) format('woff2'),
+         url(../font/bebasneue-regular-webfont.woff) format('woff'),
+         url(../font/roboto-blackitalic-webfont.woff) format('woff'),
+   
+  }
+  
+  
+  
+  
+  /*! Generated by Font Squirrel (https://www.fontsquirrel.com) on October 27, 2022 */
+  
+  
+  
+  @font-face {
+    font-family: 'sansita_swashedlight';
+    src: url(../font/sansitaswashed-variablefont_wght-webfont.woff2) format('woff2'),
+         url(../font/sansitaswashed-variablefont_wght-webfont.woff) format('woff'),
+         url(../font/sansitaswashed-variablefont_wght-webfont.ttf) format('ttf');
+  
+  }
+  @media print {
+    display: none;
+    
+  }
+  
+  /* alors ici madame c'est une abomination mais j'ai quand meme reussi à lui donner une forme concrete et si pouvais corriger mon reponsive cela m'aisera peut-etre la prochaine (ps: autorisez aussi le position)*/
+  @media screen and (max-width:597px) {
+      nav label{
+      display: inline-block;
+      background-color: brown;
+      font-size: 3rem;
+      padding: 10px;
+
+  }
+  body{
+    display: block;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #hamitems nav{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-top: 9px solid rgb(144, 38, 38);
+    width: 100%;
+}
+
+#hamitems{
+    display: none
+    
+}
+nav input:checked ~ #hamitems{ display: block;}
+    #container{
+      display: block;
+      flex-wrap: wrap;
+
+    }
+    .slade{
+      display: block;
+      flex-direction: column;
+    }
+    .bro{
+      width: 100%;
+    }
+ 
+ header{
+  width: 0%;
+ 
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: block;
+  flex-direction: column;
+ }    
+ h1.jugram{
+  font-size: 2rem;
+  padding-left: 70px;
+ }
+ .bat img{
+  width: 80%;
+ }
+ .flash img{
+  width: 75%;
+  float: right;
+ }
+ p.papa{
+  width: 100%;
+ }
+ .un{
+  display: block;
+  flex-direction: column;
+ }
+ .bor{
+  width: 50%;
+ }
+
+ .partie1{
+  display: block;
+  flex-direction: column;
+ }
+
+ .cell{
+  display: block;
+  flex-direction: column;
+
+ }
+ .goku{
+  width: 150%;
+  display: block;
+  padding-left: 30px;
+  flex-wrap: wrap;
+ }
+ .sect3{
+  display: block;
+  flex-direction: column;
+ }
+ 
+ .sec3_art2{
+  display: block;
+  flex-direction: column;
+  width: 150%;
+ }
+ .trunks{
+  display: block;
+  flex-direction: column;
+  width: 250%;
+ }
+ 
+ 
+ .vegeta{
+  flex-wrap: wrap;
+  display: block;
+  flex-direction: column;
+   width: 70%;
+ }
+ #Section4{
+  display: block;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+ .tommy{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+ }
+ .jean{
+  position: relative;
+  top: -40%;
+ }
+ .section5{
+  display: block;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  
+ }
+ .bloc2{
+  display: block;
+  flex-direction: column;
+ }
+ .section6{
+  display: block;
+  flex-direction: column;
+ }
+ .sec6_1{
+  display: block;
+  flex-direction: column;
+  padding-left: 90px;
+  width: 50%;
+  line-height: 4vh;
+ }
+ .sec6_2{
+  display: block;
+  flex-direction: column;
+ }
+ textarea{
+  width: 80%;
+ }
+    .enfin{
+      width: 100%;
+    }
+    button{
+      width: 100%;
+      height: 20vh;
+    }
+ }
